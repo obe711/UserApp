@@ -1,0 +1,9 @@
+{
+  "apiUrl": "/api/secure",
+  "dbUrl": "/api/secure",
+  "authUrl": "/api",
+  "soc": "/soc",
+  "company": "Signature Consulting Services",
+  "companyUrl": "https://sigconsultingservices.com",
+  "siteTite": "User Template"
+}

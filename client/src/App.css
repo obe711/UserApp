@@ -1,0 +1,133 @@
+.hover-select {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fb881e;
+}
+
+.registry-search {
+  background-color: #262a2d;
+  border-top-color: #262a2d;
+  border-left-color: #262a2d;
+  border-right-color: #262a2d;
+  color: #6c757d;
+  border-bottom-color: #6c757d;
+}
+
+.fade-in-effect {
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  visibility: hidden;
+}
+.fade-in-show-effect {
+  opacity: 1;
+  visibility: visible;
+}
+
+.travel-center {
+  width: inherit;
+  height: 900px;
+}
+
+.destination-tabs .nav-item:last-child {
+  padding: 0;
+}
+
+.form-group.form-group-icon.form-group-icon-dark.mb-5 {
+  border-bottom: 0px;
+}
+
+.regisrty {
+  width: 100%;
+}
+
+.registry-img {
+  width: 100%;
+  height: 175px;
+}
+
+.equal-height-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+.equal-column-content {
+  height: 100%;
+}
+
+.fade-entering {
+  opacity: 0.01;
+}
+
+.fade-entered {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exiting {
+  opacity: 1;
+}
+
+.fade-exited {
+  opacity: 0.01;
+  transition: opacity 1000ms ease-in;
+}
+
+.page-enter {
+  opacity: 0;
+}
+.page-enter-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}
+.page-exit {
+  opacity: 1;
+}
+.page-exit-active {
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 200ms;
+}
+
+.fade-out {
+  opacity: 0;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 100ms;
+}
+
+.fade-in-img {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 700ms;
+}
+
+.fade-out-img {
+  opacity: 0;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
